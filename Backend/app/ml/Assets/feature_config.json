@@ -1,0 +1,40 @@
+{
+  "sequence_length": 21,
+  "num_features": 24,
+  "feature_columns": [
+    "hour",
+    "minute",
+    "month",
+    "capacity",
+    "lag_1",
+    "lag_2",
+    "lag_3",
+    "lag_7",
+    "lag_14",
+    "lag_21",
+    "lag_30",
+    "rolling_mean_3",
+    "rolling_mean_7",
+    "rolling_mean_14",
+    "rolling_mean_21",
+    "rolling_mean_30",
+    "rolling_std_7",
+    "rolling_std_14",
+    "rolling_std_21",
+    "rolling_std_30",
+    "is_peak_season",
+    "days_into_season",
+    "days_since_last_pilgrimage",
+    "days_until_next_pilgrimage"
+  ],
+  "required_csv_columns": ["demand"],
+  "target_column": "demand",
+  "min_rows_required": 54,
+  "numeric_ranges": {
+    "demand": {
+      "min": 0,
+      "max": null
+    }
+  },
+  "categorical_domains": {}
+}

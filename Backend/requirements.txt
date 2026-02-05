@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+tensorflow==2.20.0
+keras==3.10.0
+numpy
+pandas
+scikit-learn==1.6.1
+pydantic
